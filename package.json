@@ -14,10 +14,10 @@
         "typescript": "^4.7.4"
     },
     "scripts": {
-        "test": "jest DFSOnBST LRU LinearSearchList BinarySearchList TwoCrystalBalls BubbleSort DoublyLinkedList Queue Stack ArrayList MazeSolver QuickSort BTPreOrder BTInOrder BTPostOrder BTBFS CompareBinaryTrees DFSOnBST DFSGraphList Trie BFSGraphMatrix Map MinHeap",
-        "clear": "./scripts/clear",
+        "test": "jest InsertionSort MergeSort Queue Stack QuickSort DijkstraList PrimsList",
+        "clear": "node ./scripts/clear",
         "prettier": "prettier --write ./src",
-        "generate": "./scripts/generate",
-        "day": "echo /home/mpaulson/personal/kata-machine/src/day2"
+        "generate": "node ./scripts/generate",
+        "day": "echo C:\\Users\\Sulay\\Documents\\primagen-kata-machine\\kata-machine\\src\\day1"
     }
 }
